@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YMM4 プラグイン取得サイト</title>
+    <style>
+        body { font-family: 'Helvetica Neue', Arial, sans-serif; background-color: #f4f6f9; margin: 0; padding: 20px; color: #333; }
+        .container { max-width: 900px; margin: 0 auto; background: white; padding: 30px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        h1 { color: #2c3e50; border-bottom: 2px solid #3498db; padding-bottom: 10px; margin-top: 0; }
+        p { color: #7f8c8d; }
+        .info-msg { background: #e8f4f8; padding: 10px; border-radius: 5px; color: #2980b9; font-size: 14px; margin-bottom: 20px; }
+        
+        .filter-controls {
+            display: flex;
+            gap: 15px;
+            align-items: center;
+            margin-bottom: 20px;
+            background-color: #f8f9fa;
+            padding: 15px;
+            border-radius: 6px;
+            border: 1px solid #ddd;
+            flex-wrap: wrap;
+        }
+        .filter-controls label {
+            font-weight: bold;
+            color: #2c3e50;
+        }
+        .filter-controls select {
+            padding: 8px 12px;
+            border-radius: 4px;
+            border: 1px solid #ccc;
+            font-size: 14px;
+            background-color: white;
+        }
+        
+        table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+        th, td { padding: 12px; text-align: left; border-bottom: 1px solid #ddd; }
+        th { background-color: #f8f9fa; color: #2c3e50; }
+        .badge { padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold; color: white; }
+        .badge-booth { background-color: #fc4d50; }
+        .badge-github { background-color: #24292e; }
+        a.plugin-link { color: #3498db; text-decoration: none; font-weight: bold; }
+        a.plugin-link:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>YMM4 プラグイン最新情報取得サイト</h1>
+        <p>BOOTHおよびGitHubから情報を定期的に自動収集した一覧です。</p>
+        <div class="info-msg">💡 データは GitHub Actions により12時間ごとに自動更新されています。</div>
+        
+        <div class="filter-controls">
+            <label for="category">カテゴリ:</label>
+            <select id="category">
+                <option value="all">共通（すべて）</option>
+                <option value="ymm4-audio-source">音声読み込みプラグイン</option>
+                <option value="ymm4-video-source">映像読み込みプラグイン</option>
+                <option value="ymm4-image-source">画像読み込みプラグイン</option>
+                <option value="ymm4-tachie">立ち絵プラグイン</option>
+                <option value="ymm4-shape">図形プラグイン</option>
+                <option value="ymm4-audio-spectrum">波形プラグイン</option>
+                <option value="ymm4-video-writer">動画出力プラグイン</option>
+                <option value="ymm4-audio-effect">音声エフェクト</option>
+                <option value="ymm4-video-effect">映像エフェクト</option>
+                <option value="ymm4-voice">音声合成プラグイン</option>
+                <option value="ymm4-text-completion">AIテキスト補完プラグイン</option>
+                <option value="ymm4-transition">場面切り替えプラグイン</option>
+            </select>
+
+            <label for="author">製作者:</label>
+            <select id="author">
+                <option value="all">全員（すべて）</option>
+            </select>
+
+            <label for="sort">並び替え:</label>
+            <select id="sort">
+                <option value="default">デフォルト（取得順）</option>
+                <option value="name_asc">名前順 (A-Z/あ-ん)</option>
+                <option value="name_desc">名前順逆 (Z-A/ん-あ)</option>
+                <option value="updated_desc">更新順 (新しい順)</option>
+                <option value="updated_asc">更新順 (古い順)</option>
+                <option value="author_asc">製作者順 (A-Z/あ-ん)</option>
+            </select>
+        </div>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>サイト</th>
+                    <th>プラグイン名 / リポジトリ</th>
+                    <th>詳細情報</th>
+                </tr>
+            </thead>
+            <tbody id="plugin-list">
+                <tr><td colspan="3" style="text-align:center;">データを読み込み中...</td></tr>
+            </tbody>
+        </table>
+    </div>
+
+    <script>
+        const CATEGORY_KEYWORDS = {
+            "ymm4-audio-source": ["音声読み込み", "音声読込", "audio-source", "audio_source", "音読み込み", "音声ファイル"],
+            "ymm4-video-source": ["映像読み込み", "映像読込", "video-source", "video_source", "動画読み込み", "動画読込"],
+            "ymm4-image-source": ["画像読み込み", "画像読込", "image-source", "image_source", "画像ファイル"],
+            "ymm4-tachie": ["立ち絵", "tachie", "口パク", "目パチ", "アバター"],
+            "ymm4-shape": ["図形", "shape", "ポリゴン", "多角形"],
+            "ymm4-audio-spectrum": ["波形", "audio-spectrum", "オーディオスペクトラム", "スペクトラム", "spectrum", "音量"],
+            "ymm4-video-writer": ["動画出力", "出力", "書き出し", "エンコード", "エンコーダー", "video-writer", "video_writer", "export"],
+            "ymm4-audio-effect": ["音声エフェクト", "音響エフェクト", "リバーブ", "ディレイ", "ピッチ", "audio-effect", "sound-effect"],
+            "ymm4-video-effect": ["映像エフェクト", "動画エフェクト", "エフェクト", "シェーダー", "フィルター", "video-effect", "visual-effect", "blur", "ぼかし", "モザイク", "色調補正", "クロマキー", "残像", "パーティクル"],
+            "ymm4-voice": ["音声合成", "音声読上げ", "読み上げ", "ボイス", "VOICEVOX", "voice", "tts", "棒読み", "CoeFont", "A.I.VOICE"],
+            "ymm4-text-completion": ["AIテキスト", "text-completion", "テキスト補完", "文章作成"],
+            "ymm4-transition": ["場面切り替え", "トランジション", "transition", "画面切り替え", "ワイプ"]
+        };
+
+        let rawPluginsData = [];
+
+        function escapeHtml(str) {
+            if (!str) return '';
+            return str.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+        }
+
+        async function loadPlugins() {
+            try {
+                const res = await fetch('./plugins.json');
+                if (!res.ok) throw new Error("plugins.json の読み込みに失敗しました");
+                rawPluginsData = await res.json();
+
+                // 製作者ドロップダウンの作成
+                const authorsSet = new Set();
+                rawPluginsData.forEach(p => {
+                    if (p.author) authorsSet.add(p.author);
+                });
+                const authorsList = Array.from(authorsSet).sort((a, b) => a.localeCompare(b, 'ja'));
+                
+                const authorSelect = document.getElementById('author');
+                authorsList.forEach(author => {
+                    const opt = document.createElement('option');
+                    opt.value = author;
+                    opt.textContent = author;
+                    authorSelect.appendChild(opt);
+                });
+
+                render();
+            } catch (err) {
+                document.getElementById('plugin-list').innerHTML = `<tr><td colspan="3" style="color:red; text-align:center;">データの読み込みエラー: ${escapeHtml(err.message)}</td></tr>`;
+            }
+        }
+
+        function filterPlugins(plugins, categoryId, authorId) {
+            return plugins.filter(p => {
+                if (authorId !== "all") {
+                    const author = (p.author || "不明").toLowerCase();
+                    if (author !== authorId.toLowerCase()) return false;
+                }
+
+                if (categoryId === "all") return true;
+
+                const pTags = (p.tags || []).map(t => t.toLowerCase());
+                if (pTags.includes(categoryId)) return true;
+
+                const keywords = CATEGORY_KEYWORDS[categoryId] || [];
+                const textToSearch = ((p.title || "") + " " + (p.info || "")).toLowerCase();
+                return keywords.some(kw => textToSearch.includes(kw.toLowerCase()));
+            });
+        }
+
+        function sortPlugins(plugins, sortType) {
+            const list = [...plugins];
+            if (sortType === "name_asc") {
+                list.sort((a, b) => a.title.localeCompare(b.title, 'ja'));
+            } else if (sortType === "name_desc") {
+                list.sort((a, b) => b.title.localeCompare(a.title, 'ja'));
+            } else if (sortType === "updated_desc") {
+                list.sort((a, b) => (b.updated || "1970-01-01").localeCompare(a.updated || "1970-01-01"));
+            } else if (sortType === "updated_asc") {
+                list.sort((a, b) => (a.updated || "1970-01-01").localeCompare(b.updated || "1970-01-01"));
+            } else if (sortType === "author_asc") {
+                list.sort((a, b) => (a.author || "不明").localeCompare(b.author || "不明", 'ja'));
+            }
+            return list;
+        }
+
+        function render() {
+            const categoryId = document.getElementById('category').value;
+            const authorId = document.getElementById('author').value;
+            const sortType = document.getElementById('sort').value;
+
+            const filtered = filterPlugins(rawPluginsData, categoryId, authorId);
+            const sorted = sortPlugins(filtered, sortType);
+
+            const tbody = document.getElementById('plugin-list');
+            tbody.innerHTML = '';
+
+            if (sorted.length === 0) {
+                tbody.innerHTML = '<tr><td colspan="3" style="text-align:center;">該当するプラグインは見つかりませんでした。</td></tr>';
+                return;
+            }
+
+            sorted.forEach(p => {
+                const tr = document.createElement('tr');
+                const badgeClass = p.site === 'BOOTH' ? 'badge-booth' : 'badge-github';
+                tr.innerHTML = `
+                    <td><span class="badge ${badgeClass}">${escapeHtml(p.site)}</span></td>
+                    <td><a href="${escapeHtml(p.url)}" target="_blank" class="plugin-link">${escapeHtml(p.title)}</a></td>
+                    <td>${escapeHtml(p.info)}</td>
+                `;
+                tbody.appendChild(tr);
+            });
+        }
+
+        document.getElementById('category').addEventListener('change', render);
+        document.getElementById('author').addEventListener('change', render);
+        document.getElementById('sort').addEventListener('change', render);
+
+        document.addEventListener('DOMContentLoaded', loadPlugins);
+    </script>
+</body>
+</html>

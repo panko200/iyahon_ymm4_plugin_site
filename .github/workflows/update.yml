@@ -1,0 +1,35 @@
+name: Update Plugins Data
+
+on:
+  schedule:
+    - cron: '0 */12 * * *'  # 12時間ごとに自動実行
+  workflow_dispatch:        # GitHub上から手動で「Run workflow」ボタンで実行も可能
+
+jobs:
+  build-and-update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: リポジトリをチェックアウト
+        uses: actions/checkout@v4
+
+      - name: Pythonをセットアップ
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: ライブラリをインストール
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests beautifulsoup4
+
+      - name: スクレイピングを実行
+        run: python update_data.py
+
+      - name: 更新されたデータをコミットしてPush
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add plugins.json
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto update plugins data" && git push)
