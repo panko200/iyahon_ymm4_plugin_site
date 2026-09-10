@@ -135,15 +135,6 @@
         "updated": "2025-03-21T18:29:01Z"
     },
     {
-        "title": "YMM4コマ落ちプラグイン",
-        "site": "BOOTH",
-        "author": "benikazura",
-        "info": "開発者: benikazura",
-        "url": "https://booth.pm/ja/items/6294022",
-        "tags": [],
-        "updated": "2024-04-14T02:41:33Z"
-    },
-    {
         "title": "YMM4疑似不透明度プラグイン",
         "site": "BOOTH",
         "author": "benikazura",
@@ -151,6 +142,15 @@
         "url": "https://booth.pm/ja/items/5156386",
         "tags": [],
         "updated": "2023-02-24T08:22:39Z"
+    },
+    {
+        "title": "YMM4コマ落ちプラグイン",
+        "site": "BOOTH",
+        "author": "benikazura",
+        "info": "開発者: benikazura",
+        "url": "https://booth.pm/ja/items/6294022",
+        "tags": [],
+        "updated": "2024-04-14T02:41:33Z"
     },
     {
         "title": "YMM4扇クリッピングプラグイン",
@@ -351,6 +351,15 @@
         "updated": "2026-02-16T00:25:39Z"
     },
     {
+        "title": "【YMM4プラグイン】リップル編集",
+        "site": "BOOTH",
+        "author": "neko-don",
+        "info": "開発者: neko-don",
+        "url": "https://booth.pm/ja/items/8698420",
+        "tags": [],
+        "updated": "2026-09-07T17:10:30Z"
+    },
+    {
         "title": "YMM　タイムライン折り畳みプラグイン",
         "site": "BOOTH",
         "author": "zundo",
@@ -367,15 +376,6 @@
         "url": "https://booth.pm/ja/items/8155281",
         "tags": [],
         "updated": "2026-02-21T16:42:31Z"
-    },
-    {
-        "title": "【YMM4プラグイン】リップル編集",
-        "site": "BOOTH",
-        "author": "neko-don",
-        "info": "開発者: neko-don",
-        "url": "https://booth.pm/ja/items/8698420",
-        "tags": [],
-        "updated": "2026-09-07T17:10:30Z"
     },
     {
         "title": "【YMM4プラグイン】ツリー・階層図プラグイン",
@@ -483,7 +483,7 @@
         "info": "開発者: bluemist",
         "url": "https://booth.pm/ja/items/8806542",
         "tags": [],
-        "updated": "2026-09-09T16:10:08Z"
+        "updated": "2026-09-10T03:43:46Z"
     },
     {
         "title": "YMM4 まとめてエフェクトプラグイン",
@@ -546,7 +546,7 @@
         "info": "開発者: guggusu",
         "url": "https://booth.pm/ja/items/8715683",
         "tags": [],
-        "updated": "2026-09-09T16:10:11Z"
+        "updated": "2026-09-10T03:43:48Z"
     },
     {
         "title": "YMM4 拡張イコライザープラグイン",
@@ -576,15 +576,6 @@
         "updated": "2026-07-14T21:53:01Z"
     },
     {
-        "title": "YMM4 PDF読み込みプラグイン",
-        "site": "BOOTH",
-        "author": "routersys",
-        "info": "開発者: routersys",
-        "url": "https://booth.pm/ja/items/8166034",
-        "tags": [],
-        "updated": "2026-02-25T14:47:51Z"
-    },
-    {
         "title": "YMM4 グラデーションマッププラグイン",
         "site": "BOOTH",
         "author": "routersys",
@@ -592,6 +583,15 @@
         "url": "https://booth.pm/ja/items/8183628",
         "tags": [],
         "updated": "2026-03-04T00:44:42Z"
+    },
+    {
+        "title": "YMM4 PDF読み込みプラグイン",
+        "site": "BOOTH",
+        "author": "routersys",
+        "info": "開発者: routersys",
+        "url": "https://booth.pm/ja/items/8166034",
+        "tags": [],
+        "updated": "2026-02-25T14:47:51Z"
     },
     {
         "title": "条件分岐ダイナミクスプラグイン",
@@ -609,7 +609,7 @@
         "info": "開発者: routersys",
         "url": "https://booth.pm/ja/items/8764326",
         "tags": [],
-        "updated": "2026-09-09T16:10:11Z"
+        "updated": "2026-09-10T03:43:48Z"
     },
     {
         "title": "コンテナプラグイン",
@@ -681,7 +681,7 @@
         "info": "開発者: hidechan",
         "url": "https://booth.pm/ja/items/8808531",
         "tags": [],
-        "updated": "2026-09-09T16:10:11Z"
+        "updated": "2026-09-10T03:43:48Z"
     },
     {
         "title": "【YMM4】図形フレーム装飾(図形枠)プラグイン",
@@ -744,7 +744,7 @@
         "info": "開発者: guridorapoc",
         "url": "https://booth.pm/ja/items/8768502",
         "tags": [],
-        "updated": "2026-09-09T16:10:11Z"
+        "updated": "2026-09-10T03:43:48Z"
     },
     {
         "title": "【YMM4】アイテム総数表示プラグイン",
@@ -753,7 +753,7 @@
         "info": "開発者: hidechan",
         "url": "https://booth.pm/ja/items/8749883",
         "tags": [],
-        "updated": "2026-09-09T16:10:11Z"
+        "updated": "2026-09-10T03:43:48Z"
     },
     {
         "title": "手軽にダイレクトモーション【YMM4対応】",
@@ -762,7 +762,7 @@
         "info": "開発者: guridorapoc",
         "url": "https://booth.pm/ja/items/8777907",
         "tags": [],
-        "updated": "2026-09-09T16:10:11Z"
+        "updated": "2026-09-10T03:43:48Z"
     },
     {
         "title": "【YMM4】描画位置(反転)プラグイン",
@@ -771,7 +771,7 @@
         "info": "開発者: hidechan",
         "url": "https://booth.pm/ja/items/8739035",
         "tags": [],
-        "updated": "2026-09-09T16:10:11Z"
+        "updated": "2026-09-10T03:43:48Z"
     },
     {
         "title": "【YMM4プラグイン】ColorPicker+ (v1.0.0)",
@@ -789,7 +789,7 @@
         "info": "開発者: hidechan",
         "url": "https://booth.pm/ja/items/8775102",
         "tags": [],
-        "updated": "2026-09-09T16:10:11Z"
+        "updated": "2026-09-10T03:43:48Z"
     },
     {
         "title": "手軽にサイドテロップ【YMM4対応】",
@@ -798,7 +798,7 @@
         "info": "開発者: guridorapoc",
         "url": "https://booth.pm/ja/items/8777863",
         "tags": [],
-        "updated": "2026-09-09T16:10:11Z"
+        "updated": "2026-09-10T03:43:48Z"
     },
     {
         "title": "【YMM4】一点集結プラグイン",
@@ -807,7 +807,7 @@
         "info": "開発者: kasanepoteto",
         "url": "https://booth.pm/ja/items/8764700",
         "tags": [],
-        "updated": "2026-09-09T16:10:11Z"
+        "updated": "2026-09-10T03:43:48Z"
     },
     {
         "title": "YukkuriMovieMaker4PluginSamples",
@@ -855,7 +855,7 @@
             "mcp-server",
             "ymm4-mcp"
         ],
-        "updated": "2026-09-09T14:11:00Z"
+        "updated": "2026-09-10T02:02:27Z"
     },
     {
         "title": "YMM4-LiquidGlass",
@@ -943,18 +943,6 @@
         "updated": "2026-03-27T17:21:42Z"
     },
     {
-        "title": "YMM4Physics2D",
-        "site": "GitHub",
-        "author": "Dolphin-kun",
-        "info": "開発者: Dolphin-kun | 説明: 説明はありません",
-        "url": "https://github.com/Dolphin-kun/YMM4Physics2D",
-        "tags": [
-            "ymm4-plugin",
-            "ymm4-video-effect"
-        ],
-        "updated": "2026-06-23T08:05:22Z"
-    },
-    {
         "title": "SimpleKerningEffect",
         "site": "GitHub",
         "author": "tetra-te",
@@ -965,6 +953,18 @@
             "ymm4-video-effect"
         ],
         "updated": "2026-08-30T15:42:15Z"
+    },
+    {
+        "title": "YMM4Physics2D",
+        "site": "GitHub",
+        "author": "Dolphin-kun",
+        "info": "開発者: Dolphin-kun | 説明: 説明はありません",
+        "url": "https://github.com/Dolphin-kun/YMM4Physics2D",
+        "tags": [
+            "ymm4-plugin",
+            "ymm4-video-effect"
+        ],
+        "updated": "2026-06-23T08:05:22Z"
     },
     {
         "title": "YMM4-CustomEasing",
@@ -1167,18 +1167,6 @@
         "updated": "2025-08-20T08:58:36Z"
     },
     {
-        "title": "TextSplitter",
-        "site": "GitHub",
-        "author": "Dolphin-kun",
-        "info": "開発者: Dolphin-kun | 説明: テキストを文字ごとに別のアイテムとして分割することができるツールプラグインです。",
-        "url": "https://github.com/Dolphin-kun/TextSplitter",
-        "tags": [
-            "ymm4-plugin",
-            "ymm4-tool"
-        ],
-        "updated": "2026-06-23T08:06:09Z"
-    },
-    {
         "title": "ymme-vscode-boilerplate",
         "site": "GitHub",
         "author": "InuInu2022",
@@ -1202,6 +1190,18 @@
             "ymm4-tool"
         ],
         "updated": "2026-03-26T08:40:30Z"
+    },
+    {
+        "title": "TextSplitter",
+        "site": "GitHub",
+        "author": "Dolphin-kun",
+        "info": "開発者: Dolphin-kun | 説明: テキストを文字ごとに別のアイテムとして分割することができるツールプラグインです。",
+        "url": "https://github.com/Dolphin-kun/TextSplitter",
+        "tags": [
+            "ymm4-plugin",
+            "ymm4-tool"
+        ],
+        "updated": "2026-06-23T08:06:09Z"
     },
     {
         "title": "ArcText",
@@ -1323,18 +1323,6 @@
         "updated": "2026-01-31T12:43:13Z"
     },
     {
-        "title": "Afterimage",
-        "site": "GitHub",
-        "author": "Dolphin-kun",
-        "info": "開発者: Dolphin-kun | 説明: アイテムに残像を発生させるプラグインです。",
-        "url": "https://github.com/Dolphin-kun/Afterimage",
-        "tags": [
-            "ymm4-plugin",
-            "ymm4-video-effect"
-        ],
-        "updated": "2026-03-26T08:46:49Z"
-    },
-    {
         "title": "YMM4-CombinedEffect",
         "site": "GitHub",
         "author": "routersys",
@@ -1360,6 +1348,18 @@
             "jetcut"
         ],
         "updated": "2026-03-18T12:29:09Z"
+    },
+    {
+        "title": "Afterimage",
+        "site": "GitHub",
+        "author": "Dolphin-kun",
+        "info": "開発者: Dolphin-kun | 説明: アイテムに残像を発生させるプラグインです。",
+        "url": "https://github.com/Dolphin-kun/Afterimage",
+        "tags": [
+            "ymm4-plugin",
+            "ymm4-video-effect"
+        ],
+        "updated": "2026-03-26T08:46:49Z"
     },
     {
         "title": "YMM4_ntsc-rs",
@@ -1398,17 +1398,6 @@
         "updated": "2026-03-04T15:33:36Z"
     },
     {
-        "title": "YMMResourcePackager",
-        "site": "GitHub",
-        "author": "hazimeyou",
-        "info": "開発者: hazimeyou | 説明: 素材同梱プラグインおよび展開アプリ",
-        "url": "https://github.com/hazimeyou/YMMResourcePackager",
-        "tags": [
-            "ymm4-plugin"
-        ],
-        "updated": "2026-08-24T12:30:53Z"
-    },
-    {
         "title": "YMM4OpenJTalkPlugin",
         "site": "GitHub",
         "author": "InuInu2022",
@@ -1440,6 +1429,17 @@
             "ymm4-video-effect"
         ],
         "updated": "2026-07-05T10:52:57Z"
+    },
+    {
+        "title": "YMMResourcePackager",
+        "site": "GitHub",
+        "author": "hazimeyou",
+        "info": "開発者: hazimeyou | 説明: 素材同梱プラグインおよび展開アプリ",
+        "url": "https://github.com/hazimeyou/YMMResourcePackager",
+        "tags": [
+            "ymm4-plugin"
+        ],
+        "updated": "2026-08-24T12:30:53Z"
     },
     {
         "title": "TextTemplate",
@@ -1514,30 +1514,6 @@
         "updated": "2025-02-18T03:52:14Z"
     },
     {
-        "title": "YMM4-GUIEqualizer",
-        "site": "GitHub",
-        "author": "routersys",
-        "info": "開発者: routersys | 説明: 視覚的にわかりやすいイコライザープラグインです。",
-        "url": "https://github.com/routersys/YMM4-GUIEqualizer",
-        "tags": [
-            "ymm4-plugin",
-            "ymm4-audio-effect"
-        ],
-        "updated": "2025-08-06T09:50:15Z"
-    },
-    {
-        "title": "VectorMelt",
-        "site": "GitHub",
-        "author": "panko200",
-        "info": "開発者: panko200 | 説明: YMM4で動く映像エフェクトプラグインです。データモッシュの成り損ないです。前フレームのデータを利用して、動きフレームのみを変更してぐちゃぐちゃに崩します。",
-        "url": "https://github.com/panko200/VectorMelt",
-        "tags": [
-            "ymm4-plugin",
-            "ymm4-video-effect"
-        ],
-        "updated": "2026-08-28T04:31:11Z"
-    },
-    {
         "title": "ShuffleText",
         "site": "GitHub",
         "author": "Dolphin-kun",
@@ -1561,6 +1537,30 @@
             "ymm4-voice"
         ],
         "updated": "2026-09-07T06:15:02Z"
+    },
+    {
+        "title": "YMM4-GUIEqualizer",
+        "site": "GitHub",
+        "author": "routersys",
+        "info": "開発者: routersys | 説明: 視覚的にわかりやすいイコライザープラグインです。",
+        "url": "https://github.com/routersys/YMM4-GUIEqualizer",
+        "tags": [
+            "ymm4-plugin",
+            "ymm4-audio-effect"
+        ],
+        "updated": "2025-08-06T09:50:15Z"
+    },
+    {
+        "title": "VectorMelt",
+        "site": "GitHub",
+        "author": "panko200",
+        "info": "開発者: panko200 | 説明: YMM4で動く映像エフェクトプラグインです。データモッシュの成り損ないです。前フレームのデータを利用して、動きフレームのみを変更してぐちゃぐちゃに崩します。",
+        "url": "https://github.com/panko200/VectorMelt",
+        "tags": [
+            "ymm4-plugin",
+            "ymm4-video-effect"
+        ],
+        "updated": "2026-08-28T04:31:11Z"
     },
     {
         "title": "YMM4-MIDI",
@@ -1773,6 +1773,30 @@
         "updated": "2026-07-22T01:02:39Z"
     },
     {
+        "title": "ymm4-plugin-TextBezier",
+        "site": "GitHub",
+        "author": "Salmon-P-0517",
+        "info": "開発者: Salmon-P-0517 | 説明: 説明はありません",
+        "url": "https://github.com/Salmon-P-0517/ymm4-plugin-TextBezier",
+        "tags": [
+            "ymm4-plugin",
+            "ymm4-video-effect"
+        ],
+        "updated": "2026-03-05T13:56:22Z"
+    },
+    {
+        "title": "MotionDetection",
+        "site": "GitHub",
+        "author": "Dolphin-kun",
+        "info": "開発者: Dolphin-kun | 説明: 「動作検知」映像エフェクトプラグインです。",
+        "url": "https://github.com/Dolphin-kun/MotionDetection",
+        "tags": [
+            "ymm4-plugin",
+            "ymm4-video-effect"
+        ],
+        "updated": "2026-08-17T08:00:37Z"
+    },
+    {
         "title": "ReflectEffect",
         "site": "GitHub",
         "author": "Dolphin-kun",
@@ -1808,30 +1832,6 @@
             "ymm4-tool"
         ],
         "updated": "2026-09-06T15:21:55Z"
-    },
-    {
-        "title": "ymm4-plugin-TextBezier",
-        "site": "GitHub",
-        "author": "Salmon-P-0517",
-        "info": "開発者: Salmon-P-0517 | 説明: 説明はありません",
-        "url": "https://github.com/Salmon-P-0517/ymm4-plugin-TextBezier",
-        "tags": [
-            "ymm4-plugin",
-            "ymm4-video-effect"
-        ],
-        "updated": "2026-03-05T13:56:22Z"
-    },
-    {
-        "title": "MotionDetection",
-        "site": "GitHub",
-        "author": "Dolphin-kun",
-        "info": "開発者: Dolphin-kun | 説明: 「動作検知」映像エフェクトプラグインです。",
-        "url": "https://github.com/Dolphin-kun/MotionDetection",
-        "tags": [
-            "ymm4-plugin",
-            "ymm4-video-effect"
-        ],
-        "updated": "2026-08-17T08:00:37Z"
     },
     {
         "title": "YMM4-Vst3",
@@ -1956,19 +1956,6 @@
         "updated": "2025-10-28T11:55:38Z"
     },
     {
-        "title": "YMM4TableShapePlugin",
-        "site": "GitHub",
-        "author": "InuInu2022",
-        "info": "開発者: InuInu2022 | 説明: ゆっくりムービーメーカー4 (YMM4) 用の表を描ける図形プラグインです。",
-        "url": "https://github.com/InuInu2022/YMM4TableShapePlugin",
-        "tags": [
-            "dotnet",
-            "ymm4-plugin",
-            "ymm4-shape"
-        ],
-        "updated": "2025-09-14T13:05:57Z"
-    },
-    {
         "title": "FitRotateEffect",
         "site": "GitHub",
         "author": "tetra-te",
@@ -2054,6 +2041,19 @@
             "ymm4-video-effect"
         ],
         "updated": "2026-08-07T07:53:58Z"
+    },
+    {
+        "title": "YMM4TableShapePlugin",
+        "site": "GitHub",
+        "author": "InuInu2022",
+        "info": "開発者: InuInu2022 | 説明: ゆっくりムービーメーカー4 (YMM4) 用の表を描ける図形プラグインです。",
+        "url": "https://github.com/InuInu2022/YMM4TableShapePlugin",
+        "tags": [
+            "dotnet",
+            "ymm4-plugin",
+            "ymm4-shape"
+        ],
+        "updated": "2025-09-14T13:05:57Z"
     },
     {
         "title": "VideoOutputMessage",
@@ -2234,31 +2234,6 @@
         "updated": "2026-03-12T09:04:45Z"
     },
     {
-        "title": "YMM4Clipboard",
-        "site": "GitHub",
-        "author": "Dolphin-kun",
-        "info": "開発者: Dolphin-kun | 説明: YMM4内でクリップボードツールを表示するプラグインです。",
-        "url": "https://github.com/Dolphin-kun/YMM4Clipboard",
-        "tags": [
-            "ymm4-plugin",
-            "ymm4-tool"
-        ],
-        "updated": "2026-06-23T08:06:20Z"
-    },
-    {
-        "title": "YMM4-AutoBlendLight",
-        "site": "GitHub",
-        "author": "routersys",
-        "info": "開発者: routersys | 説明: YMM4 向け映像エフェクトプラグイン。同じフレームの背景をコマンドリストのまま受け取り、1フレームの遅れなく色と明るさを読み取る。ライティング範囲の中心の背景色を光源色へ補正し、彩度の低い背景や暗すぎる背景は信用せず中立な白へ寄せる。オブジェクトのアルファをぼかし、グラデーションか縁取りで照らす。ぼかした背景を乗算して背景から浮くのを抑える。カラーモード・逆光・明るさ連動・範囲形状・固定光源・アニメーション・8言語対応",
-        "url": "https://github.com/routersys/YMM4-AutoBlendLight",
-        "tags": [
-            "ymm4",
-            "ymm4-plugin",
-            "ymm4-video-effect"
-        ],
-        "updated": "2026-09-05T20:12:00Z"
-    },
-    {
         "title": "InputSoundPlugin",
         "site": "GitHub",
         "author": "HAIsanGames813",
@@ -2304,6 +2279,31 @@
             "ymm4-video-effect"
         ],
         "updated": "2025-09-04T08:24:28Z"
+    },
+    {
+        "title": "YMM4Clipboard",
+        "site": "GitHub",
+        "author": "Dolphin-kun",
+        "info": "開発者: Dolphin-kun | 説明: YMM4内でクリップボードツールを表示するプラグインです。",
+        "url": "https://github.com/Dolphin-kun/YMM4Clipboard",
+        "tags": [
+            "ymm4-plugin",
+            "ymm4-tool"
+        ],
+        "updated": "2026-06-23T08:06:20Z"
+    },
+    {
+        "title": "YMM4-AutoBlendLight",
+        "site": "GitHub",
+        "author": "routersys",
+        "info": "開発者: routersys | 説明: YMM4 向け映像エフェクトプラグイン。同じフレームの背景をコマンドリストのまま受け取り、1フレームの遅れなく色と明るさを読み取る。ライティング範囲の中心の背景色を光源色へ補正し、彩度の低い背景や暗すぎる背景は信用せず中立な白へ寄せる。オブジェクトのアルファをぼかし、グラデーションか縁取りで照らす。ぼかした背景を乗算して背景から浮くのを抑える。カラーモード・逆光・明るさ連動・範囲形状・固定光源・アニメーション・8言語対応",
+        "url": "https://github.com/routersys/YMM4-AutoBlendLight",
+        "tags": [
+            "ymm4",
+            "ymm4-plugin",
+            "ymm4-video-effect"
+        ],
+        "updated": "2026-09-10T02:47:11Z"
     },
     {
         "title": "AnimationPitch",
@@ -2455,6 +2455,55 @@
         "updated": "2025-08-20T16:26:53Z"
     },
     {
+        "title": "YMM4-QBCode",
+        "site": "GitHub",
+        "author": "routersys",
+        "info": "開発者: routersys | 説明: YMM4で図形として、QRコードとバーコードを追加できます。",
+        "url": "https://github.com/routersys/YMM4-QBCode",
+        "tags": [
+            "ymm4-plugin",
+            "ymm4-shape"
+        ],
+        "updated": "2025-08-22T08:41:02Z"
+    },
+    {
+        "title": "YMM4-PDF",
+        "site": "GitHub",
+        "author": "routersys",
+        "info": "開発者: routersys | 説明: YMM4向け PDF読み込み・描画図形プラグイン。Docnet.Coreベースの描画エンジンにより高品質なベクター描画・高速なラスター描画の2モードとサムネイル付きファイル選択UIを実現。ページ番号など全パラメーターがアニメーション対応",
+        "url": "https://github.com/routersys/YMM4-PDF",
+        "tags": [
+            "ymm4-plugin",
+            "ymm4-shape"
+        ],
+        "updated": "2026-04-05T13:01:57Z"
+    },
+    {
+        "title": "YMM4-Localizer",
+        "site": "GitHub",
+        "author": "kabio05",
+        "info": "開発者: kabio05 | 説明: A YMM4 plugin that localizes untranslated Japanese UI text in third-party plugins and tachie PSD layer names via safe, dictionary-based in-memory replacement.",
+        "url": "https://github.com/kabio05/YMM4-Localizer",
+        "tags": [
+            "translation",
+            "localisation",
+            "ymm4",
+            "ymm4-plugin"
+        ],
+        "updated": "2026-08-21T13:32:38Z"
+    },
+    {
+        "title": "Ymm4MusicController",
+        "site": "GitHub",
+        "author": "YurKLYK",
+        "info": "開発者: YurKLYK | 説明: 説明はありません",
+        "url": "https://github.com/YurKLYK/Ymm4MusicController",
+        "tags": [
+            "ymm4-plugin"
+        ],
+        "updated": "2026-05-31T13:54:08Z"
+    },
+    {
         "title": "ymm4-plugin-long-text-scroller",
         "site": "GitHub",
         "author": "thiramisu",
@@ -2513,55 +2562,6 @@
             "ymm4-video-effect"
         ],
         "updated": "2026-07-13T14:21:16Z"
-    },
-    {
-        "title": "YMM4-QBCode",
-        "site": "GitHub",
-        "author": "routersys",
-        "info": "開発者: routersys | 説明: YMM4で図形として、QRコードとバーコードを追加できます。",
-        "url": "https://github.com/routersys/YMM4-QBCode",
-        "tags": [
-            "ymm4-plugin",
-            "ymm4-shape"
-        ],
-        "updated": "2025-08-22T08:41:02Z"
-    },
-    {
-        "title": "YMM4-PDF",
-        "site": "GitHub",
-        "author": "routersys",
-        "info": "開発者: routersys | 説明: YMM4向け PDF読み込み・描画図形プラグイン。Docnet.Coreベースの描画エンジンにより高品質なベクター描画・高速なラスター描画の2モードとサムネイル付きファイル選択UIを実現。ページ番号など全パラメーターがアニメーション対応",
-        "url": "https://github.com/routersys/YMM4-PDF",
-        "tags": [
-            "ymm4-plugin",
-            "ymm4-shape"
-        ],
-        "updated": "2026-04-05T13:01:57Z"
-    },
-    {
-        "title": "YMM4-Localizer",
-        "site": "GitHub",
-        "author": "kabio05",
-        "info": "開発者: kabio05 | 説明: A YMM4 plugin that localizes untranslated Japanese UI text in third-party plugins and tachie PSD layer names via safe, dictionary-based in-memory replacement.",
-        "url": "https://github.com/kabio05/YMM4-Localizer",
-        "tags": [
-            "translation",
-            "localisation",
-            "ymm4",
-            "ymm4-plugin"
-        ],
-        "updated": "2026-08-21T13:32:38Z"
-    },
-    {
-        "title": "Ymm4MusicController",
-        "site": "GitHub",
-        "author": "YurKLYK",
-        "info": "開発者: YurKLYK | 説明: 説明はありません",
-        "url": "https://github.com/YurKLYK/Ymm4MusicController",
-        "tags": [
-            "ymm4-plugin"
-        ],
-        "updated": "2026-05-31T13:54:08Z"
     },
     {
         "title": "YMM4-ChemicalStructure",
@@ -2805,18 +2805,6 @@
         "updated": "2026-09-07T11:09:25Z"
     },
     {
-        "title": "BpmSync",
-        "site": "GitHub",
-        "author": "benikazura",
-        "info": "開発者: benikazura | 説明: リズムに合わせてエフェクトを制御する映像エフェクトプラグインです。",
-        "url": "https://github.com/benikazura/BpmSync",
-        "tags": [
-            "ymm4-plugin",
-            "ymm4-video-effect"
-        ],
-        "updated": "2026-09-01T19:33:25Z"
-    },
-    {
         "title": "WeightControlPlugin",
         "site": "GitHub",
         "author": "HAIsanGames813",
@@ -2922,6 +2910,18 @@
             "ymm4-video-effect"
         ],
         "updated": "2026-09-01T06:36:02Z"
+    },
+    {
+        "title": "BpmSync",
+        "site": "GitHub",
+        "author": "benikazura",
+        "info": "開発者: benikazura | 説明: リズムに合わせてエフェクトを制御する映像エフェクトプラグインです。",
+        "url": "https://github.com/benikazura/BpmSync",
+        "tags": [
+            "ymm4-plugin",
+            "ymm4-video-effect"
+        ],
+        "updated": "2026-09-01T19:33:25Z"
     },
     {
         "title": "RandomAnglePlugin",
@@ -3196,31 +3196,6 @@
         "updated": "2026-06-23T13:44:08Z"
     },
     {
-        "title": "YMM4-CausticTransport",
-        "site": "GitHub",
-        "author": "routersys",
-        "info": "開発者: routersys | 説明: YMM4 向け映像エフェクトプラグイン。現在フレームの輝度を輸送格子へ集め、光源形状が定める目標分布への輸送写像をマルチグリッド Poisson 反復で解き、集光度に応じた分布輸送で光源形状への拡散から元映像への結像までを合成。ComputeSharp による Direct3D 12 GPU 処理と Direct3D 11・12 共有相互運用・光源形状（面・円・横スリット・縦スリット）・波長別輸送による分散色分離・面粗さ散乱・3 段階の品質設定・アニメーション・8 言語対応",
-        "url": "https://github.com/routersys/YMM4-CausticTransport",
-        "tags": [
-            "ymm4",
-            "ymm4-plugin",
-            "ymm4-video-effect"
-        ],
-        "updated": "2026-07-25T14:42:45Z"
-    },
-    {
-        "title": "YMM4SimpleGraphingfunctions",
-        "site": "GitHub",
-        "author": "panko200",
-        "info": "開発者: panko200 | 説明: YMM4で動く図形プラグインです。関数を入力すると、グラフが描画されます。だいぶ無理やりですが、変数にも対応しています。",
-        "url": "https://github.com/panko200/YMM4SimpleGraphingfunctions",
-        "tags": [
-            "ymm4-plugin",
-            "ymm4-shape"
-        ],
-        "updated": "2026-03-15T05:54:52Z"
-    },
-    {
         "title": "TadokoroNodeFixPatch",
         "site": "GitHub",
         "author": "tetra-te",
@@ -3283,5 +3258,29 @@
             "ymm4-tool"
         ],
         "updated": "2026-09-08T06:41:52Z"
+    },
+    {
+        "title": "YMM4_Snipping_Tool",
+        "site": "GitHub",
+        "author": "mochinekoo",
+        "info": "開発者: mochinekoo | 説明: YMM4のスクショプラグイン",
+        "url": "https://github.com/mochinekoo/YMM4_Snipping_Tool",
+        "tags": [
+            "ymm4-plugin",
+            "ymm4-tool"
+        ],
+        "updated": "2026-05-17T12:33:38Z"
+    },
+    {
+        "title": "NineSlice",
+        "site": "GitHub",
+        "author": "modurili",
+        "info": "開発者: modurili | 説明: 9スライスを使って画像の引き伸ばしやタイリングができるYMM4プラグイン",
+        "url": "https://github.com/modurili/NineSlice",
+        "tags": [
+            "ymm4-plugin",
+            "ymm4-video-effect"
+        ],
+        "updated": "2026-04-29T10:38:25Z"
     }
 ]
