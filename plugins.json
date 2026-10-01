@@ -36,15 +36,6 @@
         "updated": "2024-07-25T12:59:15Z"
     },
     {
-        "title": "YMM4　アイコン付き字幕プラグイン",
-        "site": "BOOTH",
-        "author": "superdoginui",
-        "info": "開発者: superdoginui",
-        "url": "https://booth.pm/ja/items/8539779",
-        "tags": [],
-        "updated": "2026-07-11T21:03:58Z"
-    },
-    {
         "title": "YMM4スクロールプラグイン",
         "site": "BOOTH",
         "author": "benikazura",
@@ -52,6 +43,15 @@
         "url": "https://booth.pm/ja/items/5370333",
         "tags": [],
         "updated": "2023-05-13T08:24:49Z"
+    },
+    {
+        "title": "YMM4　アイコン付き字幕プラグイン",
+        "site": "BOOTH",
+        "author": "superdoginui",
+        "info": "開発者: superdoginui",
+        "url": "https://booth.pm/ja/items/8539779",
+        "tags": [],
+        "updated": "2026-07-11T21:03:58Z"
     },
     {
         "title": "【無料】YMM4プレビュー付きテキストプリセットプラグイン",
@@ -312,7 +312,7 @@
         "info": "開発者: bluemist",
         "url": "https://booth.pm/ja/items/8824543",
         "tags": [],
-        "updated": "2026-10-01T04:51:59Z"
+        "updated": "2026-10-01T18:12:02Z"
     },
     {
         "title": "オールドフィルムプラグイン",
@@ -375,7 +375,7 @@
         "info": "開発者: bluemist",
         "url": "https://booth.pm/ja/items/8806542",
         "tags": [],
-        "updated": "2026-10-01T04:51:59Z"
+        "updated": "2026-10-01T18:12:02Z"
     },
     {
         "title": "YMM4 3Dモデル読み込みプラグイン",
@@ -510,7 +510,7 @@
         "info": "開発者: guridorapoc",
         "url": "https://booth.pm/ja/items/8777907",
         "tags": [],
-        "updated": "2026-10-01T04:51:59Z"
+        "updated": "2026-10-01T18:12:02Z"
     },
     {
         "title": "YMM4 まとめてエフェクトプラグイン",
@@ -528,7 +528,7 @@
         "info": "開発者: guridorapoc",
         "url": "https://booth.pm/ja/items/8768502",
         "tags": [],
-        "updated": "2026-10-01T04:51:59Z"
+        "updated": "2026-10-01T18:12:02Z"
     },
     {
         "title": "【YMM4プラグイン】棒グラフプラグイン",
@@ -594,15 +594,6 @@
         "updated": "2026-02-14T22:00:40Z"
     },
     {
-        "title": "クロスハッチ陰影プラグイン",
-        "site": "BOOTH",
-        "author": "routersys",
-        "info": "開発者: routersys",
-        "url": "https://booth.pm/ja/items/8548101",
-        "tags": [],
-        "updated": "2026-07-14T21:53:01Z"
-    },
-    {
         "title": "【YMM4】連続回転プラグイン",
         "site": "BOOTH",
         "author": "hidechan",
@@ -610,6 +601,15 @@
         "url": "https://booth.pm/ja/items/8690299",
         "tags": [],
         "updated": "2026-09-04T18:06:58Z"
+    },
+    {
+        "title": "クロスハッチ陰影プラグイン",
+        "site": "BOOTH",
+        "author": "routersys",
+        "info": "開発者: routersys",
+        "url": "https://booth.pm/ja/items/8548101",
+        "tags": [],
+        "updated": "2026-07-14T21:53:01Z"
     },
     {
         "title": "YMM4 PDF読み込みプラグイン",
@@ -645,7 +645,7 @@
         "info": "開発者: routersys",
         "url": "https://booth.pm/ja/items/8764326",
         "tags": [],
-        "updated": "2026-10-01T04:52:01Z"
+        "updated": "2026-10-01T17:51:09Z"
     },
     {
         "title": "【YMM4】上レイヤーに合わせてテキスト配置プラグイン",
@@ -654,7 +654,7 @@
         "info": "開発者: hidechan",
         "url": "https://booth.pm/ja/items/8808531",
         "tags": [],
-        "updated": "2026-10-01T04:52:01Z"
+        "updated": "2026-10-01T18:12:04Z"
     },
     {
         "title": "【YMM4】吹き出しプラグイン(ひで式)",
@@ -663,7 +663,7 @@
         "info": "開発者: hidechan",
         "url": "https://booth.pm/ja/items/8775102",
         "tags": [],
-        "updated": "2026-10-01T04:52:01Z"
+        "updated": "2026-10-01T18:12:04Z"
     },
     {
         "title": "コンテナプラグイン",
@@ -744,7 +744,7 @@
         "info": "開発者: kasanepoteto",
         "url": "https://booth.pm/ja/items/8764700",
         "tags": [],
-        "updated": "2026-10-01T04:52:01Z"
+        "updated": "2026-10-01T18:12:04Z"
     },
     {
         "title": "手軽にサイドテロップ【YMM4対応】",
@@ -753,7 +753,7 @@
         "info": "開発者: guridorapoc",
         "url": "https://booth.pm/ja/items/8777863",
         "tags": [],
-        "updated": "2026-10-01T04:52:01Z"
+        "updated": "2026-10-01T18:12:04Z"
     },
     {
         "title": "【YMM4】表作成プラグイン",
@@ -807,7 +807,7 @@
         "info": "開発者: kakakiki",
         "url": "https://booth.pm/ja/items/8913912",
         "tags": [],
-        "updated": "2026-10-01T04:52:01Z"
+        "updated": "2026-10-01T18:12:04Z"
     },
     {
         "title": "【YMM4プラグイン】ColorPicker+ (v1.0.0)",
@@ -825,7 +825,7 @@
         "info": "開発者: saki-crvi",
         "url": "https://booth.pm/ja/items/8863648",
         "tags": [],
-        "updated": "2026-10-01T04:52:01Z"
+        "updated": "2026-10-01T18:12:04Z"
     },
     {
         "title": "YukkuriMovieMaker4PluginSamples",
@@ -1101,6 +1101,20 @@
         "updated": "2026-09-21T04:50:47Z"
     },
     {
+        "title": "YMM4CustomEasengK",
+        "site": "GitHub",
+        "author": "kotolin-sub",
+        "info": "開発者: kotolin-sub | 説明: 説明はありません",
+        "url": "https://github.com/kotolin-sub/YMM4CustomEasengK",
+        "tags": [
+            "luajit",
+            "ymm4-plugin",
+            "ymm4-audio-effect",
+            "ymm4-video-effect"
+        ],
+        "updated": "2025-04-29T12:54:17Z"
+    },
+    {
         "title": "EffekseerForYMM4",
         "site": "GitHub",
         "author": "takoyakisoft",
@@ -1140,20 +1154,6 @@
             "ymm4-shape"
         ],
         "updated": "2025-08-22T10:31:46Z"
-    },
-    {
-        "title": "YMM4CustomEasengK",
-        "site": "GitHub",
-        "author": "kotolin-sub",
-        "info": "開発者: kotolin-sub | 説明: 説明はありません",
-        "url": "https://github.com/kotolin-sub/YMM4CustomEasengK",
-        "tags": [
-            "luajit",
-            "ymm4-plugin",
-            "ymm4-audio-effect",
-            "ymm4-video-effect"
-        ],
-        "updated": "2025-04-29T12:54:17Z"
     },
     {
         "title": "YMM43D",
@@ -1271,18 +1271,6 @@
         "updated": "2026-09-23T05:04:05Z"
     },
     {
-        "title": "YMM4-CapCut",
-        "site": "GitHub",
-        "author": "taisan11",
-        "info": "開発者: taisan11 | 説明: 説明はありません",
-        "url": "https://github.com/taisan11/YMM4-CapCut",
-        "tags": [
-            "ymm4-plugin",
-            "ymm4-voice"
-        ],
-        "updated": "2024-06-23T01:52:46Z"
-    },
-    {
         "title": "MosaicOutlineEffect",
         "site": "GitHub",
         "author": "tetra-te",
@@ -1293,6 +1281,18 @@
             "ymm4-video-effect"
         ],
         "updated": "2026-03-04T15:33:36Z"
+    },
+    {
+        "title": "YMM4-CapCut",
+        "site": "GitHub",
+        "author": "taisan11",
+        "info": "開発者: taisan11 | 説明: 説明はありません",
+        "url": "https://github.com/taisan11/YMM4-CapCut",
+        "tags": [
+            "ymm4-plugin",
+            "ymm4-voice"
+        ],
+        "updated": "2024-06-23T01:52:46Z"
     },
     {
         "title": "LyricMotion",
@@ -1679,7 +1679,7 @@
             "ymm4-plugin",
             "ymm4-tool"
         ],
-        "updated": "2026-09-01T15:34:56Z"
+        "updated": "2026-10-01T05:33:40Z"
     },
     {
         "title": "RatioOutlineEffect",
@@ -1789,6 +1789,17 @@
         "updated": "2026-08-14T06:03:01Z"
     },
     {
+        "title": "EffectCategoryCustomizer",
+        "site": "GitHub",
+        "author": "tetra-te",
+        "info": "開発者: tetra-te | 説明: エフェクトのカテゴリを自由に設定できるYMM4プラグイン",
+        "url": "https://github.com/tetra-te/EffectCategoryCustomizer",
+        "tags": [
+            "ymm4-plugin"
+        ],
+        "updated": "2026-08-07T09:15:31Z"
+    },
+    {
         "title": "ymm4-plugin-TextBezier",
         "site": "GitHub",
         "author": "Salmon-P-0517",
@@ -1811,17 +1822,6 @@
             "ymm4-video-effect"
         ],
         "updated": "2026-08-17T08:00:37Z"
-    },
-    {
-        "title": "EffectCategoryCustomizer",
-        "site": "GitHub",
-        "author": "tetra-te",
-        "info": "開発者: tetra-te | 説明: エフェクトのカテゴリを自由に設定できるYMM4プラグイン",
-        "url": "https://github.com/tetra-te/EffectCategoryCustomizer",
-        "tags": [
-            "ymm4-plugin"
-        ],
-        "updated": "2026-08-07T09:15:31Z"
     },
     {
         "title": "RhythmAnimation",
@@ -2458,17 +2458,6 @@
         "updated": "2025-08-20T16:26:53Z"
     },
     {
-        "title": "Ymm4MusicController",
-        "site": "GitHub",
-        "author": "YurKLYK",
-        "info": "開発者: YurKLYK | 説明: 説明はありません",
-        "url": "https://github.com/YurKLYK/Ymm4MusicController",
-        "tags": [
-            "ymm4-plugin"
-        ],
-        "updated": "2026-05-31T13:54:08Z"
-    },
-    {
         "title": "InterItemNode",
         "site": "GitHub",
         "author": "panko200",
@@ -2503,6 +2492,17 @@
             "ymm4-transition"
         ],
         "updated": "2026-08-08T14:27:30Z"
+    },
+    {
+        "title": "Ymm4MusicController",
+        "site": "GitHub",
+        "author": "YurKLYK",
+        "info": "開発者: YurKLYK | 説明: 説明はありません",
+        "url": "https://github.com/YurKLYK/Ymm4MusicController",
+        "tags": [
+            "ymm4-plugin"
+        ],
+        "updated": "2026-05-31T13:54:08Z"
     },
     {
         "title": "LoopOverlayAssist",
@@ -2589,30 +2589,6 @@
         "updated": "2026-09-29T03:57:16Z"
     },
     {
-        "title": "AntiphaseAudioEffect",
-        "site": "GitHub",
-        "author": "Megria-Scarlet",
-        "info": "開発者: Megria-Scarlet | 説明: 音声ファイルの波形を逆位相化するプラグインです。 おまけで入力音声のサンプリングレート単位で遅延させるエフェクトも追加します。",
-        "url": "https://github.com/Megria-Scarlet/AntiphaseAudioEffect",
-        "tags": [
-            "ymm4-plugin",
-            "ymm4-audio-effect"
-        ],
-        "updated": "2025-09-05T18:35:22Z"
-    },
-    {
-        "title": "YMM4-ChemicalStructure",
-        "site": "GitHub",
-        "author": "routersys",
-        "info": "開発者: routersys | 説明: YMM4で化学構造式のモデル表示が可能です",
-        "url": "https://github.com/routersys/YMM4-ChemicalStructure",
-        "tags": [
-            "ymm4-plugin",
-            "ymm4-shape"
-        ],
-        "updated": "2026-09-23T04:56:41Z"
-    },
-    {
         "title": "YMM4_ffMosh",
         "site": "GitHub",
         "author": "panko200",
@@ -2648,6 +2624,30 @@
             "ymm4-shape"
         ],
         "updated": "2026-09-25T15:34:39Z"
+    },
+    {
+        "title": "AntiphaseAudioEffect",
+        "site": "GitHub",
+        "author": "Megria-Scarlet",
+        "info": "開発者: Megria-Scarlet | 説明: 音声ファイルの波形を逆位相化するプラグインです。 おまけで入力音声のサンプリングレート単位で遅延させるエフェクトも追加します。",
+        "url": "https://github.com/Megria-Scarlet/AntiphaseAudioEffect",
+        "tags": [
+            "ymm4-plugin",
+            "ymm4-audio-effect"
+        ],
+        "updated": "2025-09-05T18:35:22Z"
+    },
+    {
+        "title": "YMM4-ChemicalStructure",
+        "site": "GitHub",
+        "author": "routersys",
+        "info": "開発者: routersys | 説明: YMM4で化学構造式のモデル表示が可能です",
+        "url": "https://github.com/routersys/YMM4-ChemicalStructure",
+        "tags": [
+            "ymm4-plugin",
+            "ymm4-shape"
+        ],
+        "updated": "2026-09-23T04:56:41Z"
     },
     {
         "title": "CanvasPlugin",
